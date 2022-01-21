@@ -12,8 +12,8 @@ const config: Configuration = {
     mode: mode,
     entry: './src/index.ts',
     output: {
-        path: path.resolve(__dirname, 'dist'),
         filename: 'index.js',
+        path: path.resolve(__dirname, 'dist'),
         chunkFormat: 'module',
     },
     optimization: {
@@ -26,6 +26,9 @@ const config: Configuration = {
                 },
             }),
         ],
+    },
+    experiments: {
+        outputModule: true,
     },
     module: {
         rules: [
