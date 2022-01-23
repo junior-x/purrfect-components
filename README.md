@@ -1,1 +1,1 @@
-![purrfect](https://i.gifer.com/5fzL.gif)
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="90" height="90" />
